@@ -18,9 +18,9 @@ const Experience = () => {
       </div>
 
       {/* Experience Timeline */}
-      <div className="relative">
+      <div className="relative  ">
         {/* Vertical line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
+        <div className="absolute sm:left-1/2  left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
 
         {/* Experience Entries */}
         {experiences.map((experience, index) => (
@@ -31,7 +31,7 @@ const Experience = () => {
             }`}
           >
             {/* Timeline Circle */}
-            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
+            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10 max-[1800px]:hidden">
               <img
                 src={experience.img}
                 alt={experience.company}
@@ -67,7 +67,9 @@ const Experience = () => {
                     </h4>
                   </div>
                   {/* Date at the bottom */}
-                  <p className="text-sm text-gray-500 mt-2">{experience.date}</p>
+                  <p className="text-sm text-gray-500 mt-2">
+                    {experience.date}
+                  </p>
                 </div>
               </div>
 
