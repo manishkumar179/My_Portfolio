@@ -28,17 +28,16 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import yuvaLogo from './assets/company_logo/yuva.png';
+import amigosLogo from './assets/company_logo/amigos.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
+import sirtLogo from './assets/education_logo/sirt.png';
 import lbpsLogo from './assets/education_logo/lbps.png';
 
 // Project Section Logo's
 import interviewLogo from './assets/work_logo/interview.png';
+import agentMindLogo from './assets/work_logo/chatgpt.png'
 
 
 
@@ -51,9 +50,9 @@ export const SkillsInfo = [
       { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      
+
       { name: 'Redux', logo: reduxLogo },
-     
+
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
@@ -95,114 +94,121 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
+export const experiences = [
+  {
+    id: 0,
+    img: yuvaLogo,
+    role: "Fullstack Developer",
+    company: "Yuva Intern",
+    date: "Sep 2026 - Oct 2026",
+    desc: "Worked on web development projects during the YUVA Internship, contributing to project planning, system architecture, frontend development, implementation, testing, and documentation. Developed and improved web application components, worked with APIs and Git/GitHub, and gained practical experience in debugging, problem-solving, and the software development lifecycle.",
+
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "Git",
+      "GitHub",
+      "REST APIs"
+    ],
+
+  },
+  {
+    id: 1,
+    img: amigosLogo,
+    role: "Web Development Intern",
+
+    company: "InAmigos Foundation",
+
+    date: "OnGoing",
+
+    desc: "Contributed to web development projects during the internship, working on project planning, system architecture, frontend development, implementation, testing, and documentation. Developed and improved web application components, worked with APIs and Git/GitHub, and gained practical experience in debugging, problem-solving, and the software development lifecycle.",
+
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Git",
+      "GitHub",
+      "REST APIs"
+    ],
+  },
   
-  export const education = [
-    {
-      id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
-    },
-    {
-      id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      img: lbpsLogo,
-      school: "Lord Buddha Public School, Aurangabad Bihar",
-      date: "Apr 2021 - March 2023",
-      grade: "67.2%",
-      desc: "I completed my class 12 education from Lord Buddha Public School, Aurangabad, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: lbpsLogo,
-      school: "Lord Buddha Public School, Aurangabad Bihar",
-      date: "Apr 2020 - March 2021",
-      grade: "84%",
-      desc: "I completed my class 10th education from Lord Buddha Public School, Aurangabad, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X) - Science with Computer Application",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "Interview Agent",
-      description:
-        "Interview Agent is an AI-powered interview preparation platform that helps users practice technical and HR interviews through personalized AI-generated questions and feedback. Users can provide their profile and resume, and the system uses this information to generate relevant interview questions and evaluate responses.",
-      image: interviewLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Nodejs", "Mongodb"],
-      github: "https://github.com/manishkumar179/Ai_InterView_Agent/tree/main/InterviewIQ",
-      webapp: "https://ai-interview-agent-client-hb8r.onrender.com",
-    },
-    
-  ];  
+];
+
+export const education = [
+  {
+    id: 0,
+    img: sirtLogo,
+    school: "SIRT, Bhopal",
+    date: "Aug 2023 - On-Going",
+    grade: "8.48 CGPA",
+    desc: "I am currently pursuing a B.Tech in Computer Science and Engineering from Sagar Institute of Research and Technology, Bhopal. During my degree, I have developed a strong foundation in programming, software development, databases, and web technologies. I have worked with Java, JavaScript, React.js, Node.js, Express.js, MongoDB, PostgreSQL, and REST APIs. I have built projects including an AI Interview Agent, AgentMind – Agentic AI Assistant, and an Event Management System, gaining practical experience in full-stack development, backend APIs, authentication, database management, and Generative AI. I have also completed technical training and certifications in MERN Stack, Java & DSA, Generative AI, and Agentic AI.",
+
+    degree: "Bachelor of Technology - B.Tech in Computer Science and Engineering",
+  },
+
+  {
+    id: 1,
+    img: lbpsLogo,
+    school: "Lord Buddha Public School, Aurangabad Bihar",
+    date: "Apr 2021 - March 2023",
+    grade: "67.2%",
+    desc: "I completed my class 12 education from Lord Buddha Public School, Aurangabad, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+    degree: "CBSE(XII) - PCM with Computer Science",
+  },
+  {
+    id: 2,
+    img: lbpsLogo,
+    school: "Lord Buddha Public School, Aurangabad Bihar",
+    date: "Apr 2020 - March 2021",
+    grade: "84%",
+    desc: "I completed my class 10th education from Lord Buddha Public School, Aurangabad, under the CBSE board, where I studied Science with Computer.",
+    degree: "CBSE(X) - Science with Computer Application",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Interview Agent",
+    description:
+      "Interview Agent is an AI-powered interview preparation platform that helps users practice technical and HR interviews through personalized AI-generated questions and feedback. Users can provide their profile and resume, and the system uses this information to generate relevant interview questions and evaluate responses.",
+    image: interviewLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Nodejs", "Mongodb", "Express.js", "LLM Api"],
+    github: "https://github.com/manishkumar179/Ai_InterView_Agent/tree/main/InterviewIQ",
+    webapp: "https://ai-interview-agent-client-hb8r.onrender.com",
+  },
+
+
+  {
+  id: 1,
+  title: "AgentMind – Agentic AI Assistant",
+  description:
+    "AgentMind is a full-stack Agentic AI assistant built using the MERN Stack that interprets user queries, reasons over context, selects appropriate tools, and executes multi-step actions. It integrates custom tool functions, weather APIs, persistent user memory, and LLM-based interactions to provide personalized, context-aware responses.",
+  image: agentMindLogo,
+  tags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript",
+    "Generative AI",
+    "LLMs",
+    "Agentic AI",
+    "Prompt Engineering",
+    "REST APIs"
+  ],
+  github: "https://github.com/manishkumar179/AGENTIC_AI/tree/main/chatgpt",
+  webapp: "Not available right now..",
+},
+
+];
 
 
 
